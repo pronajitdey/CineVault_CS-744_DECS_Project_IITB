@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// constructor
 DBHandler::DBHandler(const string& host,
     const string& user,
     const string& pass,
@@ -20,8 +21,10 @@ DBHandler::DBHandler(const string& host,
   }
 }
 
+// destructor
 DBHandler::~DBHandler() = default;
 
+// insert or update key in the database
 bool DBHandler::create(const string& key, const string& value) {
   try {
     unique_ptr<sql::PreparedStatement> pstmt{con->prepareStatement(
@@ -37,6 +40,7 @@ bool DBHandler::create(const string& key, const string& value) {
   }
 }
 
+// read value of a key from database
 bool DBHandler::read(const string& key, string& value) {
   try {
     unique_ptr<sql::PreparedStatement> pstmt {
@@ -58,6 +62,7 @@ bool DBHandler::read(const string& key, string& value) {
   }
 }
 
+// remove a key-value pair from database
 bool DBHandler::remove(const string& key) {
   try {
     unique_ptr<sql::PreparedStatement> pstmt {
