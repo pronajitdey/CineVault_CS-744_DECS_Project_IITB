@@ -11,15 +11,17 @@ using namespace std;
 class Cache {
   private:
     size_t capacity;
-    list<string> LRUlist;
+    list<string> LRUlist; // stores keys
     unordered_map<string, pair<string, list<string>::iterator>> cacheMap;
-    mutex mtx;
+    mutable mutex mtx;
 
   public:
     explicit Cache(size_t cap = 1000);
 
-    bool read(const string &key, string &value);
-    void insert(const string &key, const string &value);
-    void remove(const string &key);
+    bool exists(const string &key);
+    string get(const string &key);
+    void put(const string &key, const string &value);
+    void erase(const string &key);
     void clear();
+    size_t size() const;
 };
