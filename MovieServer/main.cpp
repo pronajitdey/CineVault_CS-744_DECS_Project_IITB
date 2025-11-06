@@ -3,15 +3,20 @@
 #include "db.h"
 #include <jsoncons/json.hpp>
 #include "cache.h"
+#include <algorithm>
+#include <cctype>
 
 #define DEFAULT_URI "tcp://127.0.0.1"
 #define DB_USER "movieuser"
 #define DB_PASS "moviepass"
 #define DB_NAME "movie_store"
-#define CACHE_CAPACITY 1000
+#define CACHE_CAPACITY 3
 
 using namespace std;
 using namespace jsoncons;
+
+static string to_lower_ascii(const string &s);
+static string movie_cache_key(const string &title);
 
 int main() {
   httplib::Server svr;
@@ -50,7 +55,7 @@ int main() {
       movieJson["genre"] = genre;
       movieJson["release_year"] = year;
       movieJson["rating"] = rating;
-      cache.put("movie: " + title, movieJson.to_string());
+      cache.put(movie_cache_key(title), movieJson.to_string());
       cache.erase("list_movies");
       res.set_content("Movie added and cached", "text/plain");
     } else {
@@ -88,12 +93,13 @@ int main() {
     
     string title = req.get_param_value("title");
     string movieData;
-
-    if (cache.exists("movie: " + title)) {
-      movieData = cache.get("movie: " + title);
+    string cacheKey = movie_cache_key(title);
+    
+    if (cache.exists(cacheKey)) {
+      movieData = cache.get(cacheKey);
     } else {
       if (db.searchMovie(title, movieData)) {
-        cache.put("movie: " + title, movieData);
+        cache.put(cacheKey, movieData);
       }
     }
     res.set_content(movieData, "application/json");
@@ -116,8 +122,9 @@ int main() {
 
     if (db.updateRating(id, rating, title, movieJson)) {
       if (!title.empty()) {
-        cache.erase("movie: " + title);
-        cache.put("movie: " + title, movieJson);
+        string cacheKey = movie_cache_key(title);
+        cache.erase(cacheKey);
+        cache.put(cacheKey, movieJson);
       }
       cache.erase("list_movies");
       res.set_content("Rating updated", "text/plain");
@@ -140,7 +147,7 @@ int main() {
     string title;
 
     if (db.deleteMovie(id, title)) {
-      if (!title.empty()) cache.erase("movie: " + title);
+      if (!title.empty()) cache.erase(movie_cache_key(title));
       cache.erase("list_movies");
       res.set_content("Movie deleted", "text/plain");
     } else {
@@ -151,4 +158,16 @@ int main() {
 
   cout << "Server running at http://0.0.0.0:8080" << endl;
   svr.listen("0.0.0.0", 8080);
+}
+
+// Convert ASCII string to lowercase (simple, fast)
+static string to_lower_ascii(const string &s) {
+    string out = s;
+    transform(out.begin(), out.end(), out.begin(), ::tolower);
+    return out;
+}
+
+// Build cache key consistently
+static string movie_cache_key(const string &title) {
+    return string("movie:") + to_lower_ascii(title);
 }
