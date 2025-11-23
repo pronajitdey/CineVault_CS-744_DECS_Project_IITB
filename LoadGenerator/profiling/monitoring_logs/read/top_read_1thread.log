@@ -1,0 +1,557 @@
+top - 01:41:07 up 12:17,  1 user,  load average: 0.08, 0.02, 0.01
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  3.9 sy,  0.0 ni, 95.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3532.2 total,   2562.8 free,    843.9 used,    210.1 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2688.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0   90400   9344   8192 S   0.0   0.3   0:00.08 MovieHT+
+
+top - 01:41:12 up 12:17,  1 user,  load average: 0.15, 0.03, 0.01
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.1 us,  3.5 sy,  0.0 ni, 91.3 id,  0.0 wa,  0.0 hi,  1.1 si,  0.0 st 
+MiB Mem :   3532.2 total,   2530.7 free,    874.6 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2657.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  33.1   1.1   0:01.74 MovieHT+
+
+top - 01:41:17 up 12:17,  1 user,  load average: 0.22, 0.05, 0.02
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.2 us,  8.1 sy,  0.0 ni, 83.4 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2530.2 free,    875.0 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2657.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.5   1.1   0:05.07 MovieHT+
+
+top - 01:41:22 up 12:18,  1 user,  load average: 0.28, 0.07, 0.02
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.3 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  2.9 si,  0.0 st 
+MiB Mem :   3532.2 total,   2530.2 free,    875.0 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2657.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.1   1.1   0:08.38 MovieHT+
+
+top - 01:41:27 up 12:18,  1 user,  load average: 0.34, 0.08, 0.03
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.3 sy,  0.0 ni, 82.8 id,  0.0 wa,  0.0 hi,  2.6 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.5 free,    875.7 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 R  65.7   1.1   0:11.67 MovieHT+
+
+top - 01:41:31 up 12:18,  1 user,  load average: 0.31, 0.08, 0.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.1 us,  8.2 sy,  0.0 ni, 82.9 id,  0.0 wa,  0.0 hi,  2.8 si,  0.0 st 
+MiB Mem :   3532.2 total,   2532.5 free,    872.7 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2659.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.0   1.1   0:14.97 MovieHT+
+
+top - 01:41:36 up 12:18,  1 user,  load average: 0.45, 0.11, 0.04
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.7 sy,  0.0 ni, 81.9 id,  0.0 wa,  0.0 hi,  2.9 si,  0.0 st 
+MiB Mem :   3532.2 total,   2532.5 free,    872.7 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2659.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.9   1.1   0:18.27 MovieHT+
+
+top - 01:41:41 up 12:18,  1 user,  load average: 0.57, 0.14, 0.05
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.0 us,  8.8 sy,  0.0 ni, 82.1 id,  0.0 wa,  0.0 hi,  3.1 si,  0.0 st 
+MiB Mem :   3532.2 total,   2532.1 free,    873.2 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2659.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.4   1.1   0:21.54 MovieHT+
+
+top - 01:41:46 up 12:18,  1 user,  load average: 0.61, 0.16, 0.05
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.2 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  2.9 si,  0.0 st 
+MiB Mem :   3532.2 total,   2531.8 free,    873.4 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2658.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.7   1.1   0:24.83 MovieHT+
+
+top - 01:41:51 up 12:18,  1 user,  load average: 0.64, 0.17, 0.06
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.1 us,  8.4 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  3.1 si,  0.0 st 
+MiB Mem :   3532.2 total,   2531.6 free,    873.7 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2658.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.0   1.1   0:28.13 MovieHT+
+
+top - 01:41:56 up 12:18,  1 user,  load average: 0.67, 0.19, 0.06
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.7 us,  8.4 sy,  0.0 ni, 82.7 id,  0.0 wa,  0.0 hi,  2.3 si,  0.0 st 
+MiB Mem :   3532.2 total,   2531.6 free,    873.7 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2658.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.1   1.1   0:31.44 MovieHT+
+
+top - 01:42:01 up 12:18,  1 user,  load average: 0.62, 0.18, 0.06
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.7 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2531.1 free,    874.2 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2658.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.5   1.1   0:34.72 MovieHT+
+
+top - 01:42:05 up 12:18,  1 user,  load average: 0.73, 0.21, 0.07
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.5 sy,  0.0 ni, 82.7 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2530.9 free,    874.4 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2657.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.1   1.1   0:38.03 MovieHT+
+
+top - 01:42:10 up 12:18,  1 user,  load average: 0.75, 0.23, 0.08
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.7 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  2.5 si,  0.0 st 
+MiB Mem :   3532.2 total,   2530.6 free,    874.6 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2657.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.7   1.1   0:41.32 MovieHT+
+
+top - 01:42:15 up 12:18,  1 user,  load average: 0.77, 0.24, 0.08
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.5 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  3.0 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.9 free,    875.4 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.8   1.1   0:44.61 MovieHT+
+
+top - 01:42:20 up 12:19,  1 user,  load average: 0.79, 0.25, 0.09
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.1 us,  8.4 sy,  0.0 ni, 82.9 id,  0.0 wa,  0.0 hi,  2.6 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.7 free,    875.6 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.5   1.1   0:47.89 MovieHT+
+
+top - 01:42:25 up 12:19,  1 user,  load average: 0.80, 0.27, 0.10
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.9 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  2.2 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.7 free,    875.6 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.6   1.1   0:51.17 MovieHT+
+
+top - 01:42:30 up 12:19,  1 user,  load average: 0.82, 0.28, 0.10
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.5 us,  8.4 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  2.9 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.7 free,    875.6 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.1   1.1   0:54.48 MovieHT+
+
+top - 01:42:34 up 12:19,  1 user,  load average: 0.84, 0.29, 0.11
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.8 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  2.7 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.7 free,    875.6 used,    211.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.4   1.1   0:57.75 MovieHT+
+
+top - 01:42:39 up 12:19,  1 user,  load average: 1.01, 0.33, 0.12
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.4 sy,  0.0 ni, 81.5 id,  0.0 wa,  0.0 hi,  3.7 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.4 free,    875.8 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.7   1.1   1:01.04 MovieHT+
+
+top - 01:42:44 up 12:19,  1 user,  load average: 1.09, 0.36, 0.13
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.4 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  3.0 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.4 free,    875.8 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.7   1.1   1:04.33 MovieHT+
+
+top - 01:42:49 up 12:19,  1 user,  load average: 1.08, 0.37, 0.14
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.4 sy,  0.0 ni, 82.7 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.4 free,    875.8 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.8   1.1   1:07.62 MovieHT+
+
+top - 01:42:54 up 12:19,  1 user,  load average: 0.99, 0.37, 0.14
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.5 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  2.3 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.4 free,    875.8 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.8   1.1   1:10.91 MovieHT+
+
+top - 01:42:59 up 12:19,  1 user,  load average: 0.99, 0.38, 0.14
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.5 us,  8.3 sy,  0.0 ni, 82.7 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.4 free,    875.8 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.1   1.1   1:14.22 MovieHT+
+
+top - 01:43:04 up 12:19,  1 user,  load average: 0.91, 0.37, 0.14
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.5 sy,  0.0 ni, 82.7 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2529.2 free,    876.0 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.7   1.1   1:17.51 MovieHT+
+
+top - 01:43:08 up 12:19,  1 user,  load average: 0.92, 0.38, 0.14
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.0 us,  8.5 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  2.9 si,  0.0 st 
+MiB Mem :   3532.2 total,   2528.2 free,    877.0 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.1   1.1   1:20.82 MovieHT+
+
+top - 01:43:13 up 12:19,  1 user,  load average: 0.93, 0.39, 0.15
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.5 us,  8.5 sy,  0.0 ni, 81.9 id,  0.0 wa,  0.0 hi,  3.2 si,  0.0 st 
+MiB Mem :   3532.2 total,   2528.0 free,    877.2 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.4   1.1   1:24.09 MovieHT+
+
+top - 01:43:18 up 12:20,  1 user,  load average: 0.93, 0.40, 0.15
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.1 us,  8.9 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  2.8 si,  0.0 st 
+MiB Mem :   3532.2 total,   2528.0 free,    877.2 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  64.1   1.1   1:27.30 MovieHT+
+
+top - 01:43:23 up 12:20,  1 user,  load average: 1.02, 0.43, 0.16
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.7 us,  8.4 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  2.3 si,  0.0 st 
+MiB Mem :   3532.2 total,   2528.0 free,    877.2 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.4   1.1   1:30.57 MovieHT+
+
+top - 01:43:28 up 12:20,  1 user,  load average: 1.02, 0.44, 0.17
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.4 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  2.7 si,  0.0 st 
+MiB Mem :   3532.2 total,   2528.0 free,    877.2 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.3   1.1   1:33.89 MovieHT+
+
+top - 01:43:33 up 12:20,  1 user,  load average: 1.18, 0.48, 0.18
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.2 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  3.1 si,  0.0 st 
+MiB Mem :   3532.2 total,   2528.0 free,    877.2 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.9   1.1   1:37.19 MovieHT+
+
+top - 01:43:37 up 12:20,  1 user,  load average: 1.32, 0.52, 0.20
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.2 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  3.1 si,  0.0 st 
+MiB Mem :   3532.2 total,   2527.8 free,    877.5 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 R  66.4   1.1   1:40.51 MovieHT+
+
+top - 01:43:42 up 12:20,  1 user,  load average: 1.46, 0.57, 0.21
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.5 sy,  0.0 ni, 82.8 id,  0.0 wa,  0.0 hi,  2.5 si,  0.0 st 
+MiB Mem :   3532.2 total,   2527.8 free,    877.4 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.9   1.1   1:43.81 MovieHT+
+
+top - 01:43:47 up 12:20,  1 user,  load average: 1.50, 0.59, 0.22
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.2 us,  8.5 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  2.7 si,  0.0 st 
+MiB Mem :   3532.2 total,   2527.8 free,    877.4 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.3   1.1   1:47.13 MovieHT+
+
+top - 01:43:52 up 12:20,  1 user,  load average: 1.70, 0.65, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.5 sy,  0.0 ni, 82.7 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2527.8 free,    877.4 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 R  65.8   1.1   1:50.42 MovieHT+
+
+top - 01:43:57 up 12:20,  1 user,  load average: 1.73, 0.67, 0.25
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.5 sy,  0.0 ni, 82.8 id,  0.0 wa,  0.0 hi,  2.2 si,  0.0 st 
+MiB Mem :   3532.2 total,   2527.8 free,    877.4 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.1   1.1   1:53.68 MovieHT+
+
+top - 01:44:02 up 12:20,  1 user,  load average: 1.83, 0.71, 0.27
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.5 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2527.8 free,    877.4 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.2   1.1   1:56.99 MovieHT+
+
+top - 01:44:07 up 12:20,  1 user,  load average: 1.84, 0.73, 0.28
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.2 sy,  0.0 ni, 82.7 id,  0.0 wa,  0.0 hi,  2.5 si,  0.0 st 
+MiB Mem :   3532.2 total,   2527.6 free,    877.6 used,    211.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.9   1.1   2:00.29 MovieHT+
+
+top - 01:44:11 up 12:20,  1 user,  load average: 1.93, 0.77, 0.29
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.9 sy,  0.0 ni, 82.2 id,  0.2 wa,  0.0 hi,  2.3 si,  0.0 st 
+MiB Mem :   3532.2 total,   2519.4 free,    879.0 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2653.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.8   1.1   2:03.58 MovieHT+
+
+top - 01:44:16 up 12:21,  1 user,  load average: 1.94, 0.79, 0.30
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.1 us,  8.5 sy,  0.0 ni, 82.5 id,  0.0 wa,  0.0 hi,  2.9 si,  0.0 st 
+MiB Mem :   3532.2 total,   2519.4 free,    879.0 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2653.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.5   1.1   2:06.86 MovieHT+
+
+top - 01:44:21 up 12:21,  1 user,  load average: 2.03, 0.83, 0.32
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.5 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  2.7 si,  0.0 st 
+MiB Mem :   3532.2 total,   2519.4 free,    879.0 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2653.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.6   1.1   2:10.19 MovieHT+
+
+top - 01:44:26 up 12:21,  1 user,  load average: 1.94, 0.83, 0.32
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.2 sy,  0.0 ni, 82.3 id,  0.0 wa,  0.0 hi,  3.1 si,  0.0 st 
+MiB Mem :   3532.2 total,   2519.2 free,    879.2 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2653.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 R  65.9   1.1   2:13.49 MovieHT+
+
+top - 01:44:31 up 12:21,  1 user,  load average: 1.87, 0.83, 0.33
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.1 us,  8.5 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  3.0 si,  0.0 st 
+MiB Mem :   3532.2 total,   2519.0 free,    879.4 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2652.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.7   1.1   2:16.78 MovieHT+
+
+top - 01:44:36 up 12:21,  1 user,  load average: 1.88, 0.85, 0.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.7 sy,  0.0 ni, 82.3 id,  0.0 wa,  0.0 hi,  2.6 si,  0.0 st 
+MiB Mem :   3532.2 total,   2519.0 free,    879.4 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2652.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.8   1.1   2:20.07 MovieHT+
+
+top - 01:44:40 up 12:21,  1 user,  load average: 1.89, 0.87, 0.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.2 us,  8.9 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  2.7 si,  0.0 st 
+MiB Mem :   3532.2 total,   2518.8 free,    879.6 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2652.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.0   1.1   2:23.37 MovieHT+
+
+top - 01:44:45 up 12:21,  1 user,  load average: 1.90, 0.89, 0.35
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.2 sy,  0.0 ni, 82.8 id,  0.0 wa,  0.0 hi,  2.7 si,  0.0 st 
+MiB Mem :   3532.2 total,   2518.8 free,    879.6 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2652.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.9   1.1   2:26.67 MovieHT+
+
+top - 01:44:50 up 12:21,  1 user,  load average: 1.91, 0.91, 0.36
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.2 us,  8.4 sy,  0.0 ni, 82.7 id,  0.0 wa,  0.0 hi,  2.7 si,  0.0 st 
+MiB Mem :   3532.2 total,   2518.6 free,    879.8 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2652.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.9   1.1   2:29.97 MovieHT+
+
+top - 01:44:55 up 12:21,  1 user,  load average: 2.07, 0.96, 0.38
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.2 sy,  0.0 ni, 82.8 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2519.3 free,    879.1 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2653.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 R  65.0   1.1   2:33.22 MovieHT+
+
+top - 01:45:00 up 12:21,  1 user,  load average: 1.99, 0.96, 0.39
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.3 us,  8.6 sy,  0.0 ni, 82.8 id,  0.0 wa,  0.0 hi,  2.3 si,  0.0 st 
+MiB Mem :   3532.2 total,   2519.1 free,    879.3 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2652.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.1   1.1   2:36.48 MovieHT+
+
+top - 01:45:05 up 12:21,  1 user,  load average: 1.91, 0.96, 0.39
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.1 sy,  0.0 ni, 82.7 id,  0.0 wa,  0.0 hi,  2.5 si,  0.0 st 
+MiB Mem :   3532.2 total,   2519.1 free,    879.3 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2652.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.8   1.1   2:39.77 MovieHT+
+
+top - 01:45:09 up 12:21,  1 user,  load average: 1.84, 0.96, 0.39
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.1 sy,  0.0 ni, 82.8 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2518.9 free,    879.5 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2652.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.5   1.1   2:43.05 MovieHT+
+
+top - 01:45:14 up 12:22,  1 user,  load average: 1.85, 0.98, 0.40
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.5 us,  8.7 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  2.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2518.9 free,    879.5 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2652.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.4   1.1   2:46.32 MovieHT+
+
+top - 01:45:19 up 12:22,  1 user,  load average: 1.78, 0.98, 0.41
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.4 sy,  0.0 ni, 82.6 id,  0.0 wa,  0.0 hi,  2.6 si,  0.0 st 
+MiB Mem :   3532.2 total,   2522.2 free,    876.2 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2656.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.5   1.1   2:49.60 MovieHT+
+
+top - 01:45:24 up 12:22,  1 user,  load average: 1.72, 0.98, 0.41
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.1 us,  8.7 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  2.8 si,  0.0 st 
+MiB Mem :   3532.2 total,   2521.3 free,    877.0 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.8   1.1   2:52.89 MovieHT+
+
+top - 01:45:29 up 12:22,  1 user,  load average: 1.66, 0.98, 0.41
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.5 us,  8.3 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  3.0 si,  0.0 st 
+MiB Mem :   3532.2 total,   2521.3 free,    877.0 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.9   1.1   2:56.19 MovieHT+
+
+top - 01:45:34 up 12:22,  1 user,  load average: 1.69, 1.00, 0.42
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.5 sy,  0.0 ni, 82.0 id,  0.0 wa,  0.0 hi,  3.0 si,  0.0 st 
+MiB Mem :   3532.2 total,   2521.3 free,    877.0 used,    218.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.2   1.1   2:59.45 MovieHT+
+
+top - 01:45:39 up 12:22,  1 user,  load average: 1.63, 1.00, 0.42
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.0 us,  8.9 sy,  0.0 ni, 82.1 id,  0.0 wa,  0.0 hi,  3.0 si,  0.0 st 
+MiB Mem :   3532.2 total,   2521.3 free,    877.0 used,    218.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.3   1.1   3:02.72 MovieHT+
+
+top - 01:45:43 up 12:22,  1 user,  load average: 1.66, 1.02, 0.43
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.4 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  3.0 si,  0.0 st 
+MiB Mem :   3532.2 total,   2521.3 free,    877.0 used,    218.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2655.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.8   1.1   3:06.01 MovieHT+
+
+top - 01:45:48 up 12:22,  1 user,  load average: 1.69, 1.03, 0.44
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.4 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  2.8 si,  0.0 st 
+MiB Mem :   3532.2 total,   2520.9 free,    877.5 used,    218.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.3   1.1   3:09.28 MovieHT+
+
+top - 01:45:53 up 12:22,  1 user,  load average: 1.63, 1.03, 0.45
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.6 us,  8.4 sy,  0.0 ni, 82.0 id,  0.0 wa,  0.0 hi,  3.1 si,  0.0 st 
+MiB Mem :   3532.2 total,   2520.9 free,    877.5 used,    218.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.5   1.1   3:12.56 MovieHT+
+
+top - 01:45:58 up 12:22,  1 user,  load average: 1.66, 1.05, 0.45
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  8.4 sy,  0.0 ni, 81.7 id,  0.0 wa,  0.0 hi,  3.4 si,  0.0 st 
+MiB Mem :   3532.2 total,   2520.9 free,    877.5 used,    218.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  65.8   1.1   3:15.85 MovieHT+
+
+top - 01:46:03 up 12:22,  1 user,  load average: 1.61, 1.05, 0.46
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.9 us,  8.8 sy,  0.0 ni, 81.9 id,  0.0 wa,  0.0 hi,  3.3 si,  0.0 st 
+MiB Mem :   3532.2 total,   2520.9 free,    877.5 used,    218.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2654.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6311 sunny     20   0  614688  39648  10752 S  66.2   1.1   3:19.16 MovieHT+

@@ -1,0 +1,15 @@
+Monitoring Summary - Sat Nov 22 11:17:23 IST 2025
+================================
+PID Monitored: 7539
+Duration: 5 minutes (300 seconds)
+
+CPU Usage: 16.91%
+Memory Usage: 14.11 MB
+Disk Utilization: 87.2197%
+I/O Await Time: 618.8644 ms
+Peak Utilization: 98.32%
+
+Raw logs:
+- top_20251122_111203.log
+- pidstat_20251122_111203.log
+- iostat_20251122_111203.log

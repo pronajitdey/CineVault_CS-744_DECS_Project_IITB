@@ -4,28 +4,79 @@
 using namespace std;
 
 // Constructor
-DBHandler::DBHandler(const string& host,
-    const string& user,
-    const string& pass,
-    const string& db) {
-  
-  try {
-    driver = sql::mysql::get_driver_instance();
-    con.reset(driver->connect(host, user, pass));
-    con->setSchema(db);
-    cout << "Connected to MySQL database: " << db << endl;
-  } catch(sql::SQLException &e) {
-    cerr << "#ERR: " << e.what()
-         << " (MySQL error code: " << e.getErrorCode()
-         << ", SQLState: " << e.getSQLState() << " )" << endl;
-  }
+DBHandler::DBHandler(const string& host, const string& user, 
+                     const string& pass, const string& db) 
+    : db_host(host), db_user(user), db_pass(pass), db_name(db) {
+  driver = get_driver_instance();
+  cout << "DBHandler initialized" << endl;
 }
 
 // Destructor
-DBHandler::~DBHandler() = default;
+DBHandler::~DBHandler() {
+  lock_guard<mutex> lock(connections_mutex);
+  connections.clear();
+  cout << "All database connections closed (auto-cleaned by unique_ptr)" << endl;
+  std::cout.flush();
+}
+
+// Get or create connection for current thread
+sql::Connection* DBHandler::getThreadConnection() {
+  thread::id tid = this_thread::get_id();
+  
+  {
+    lock_guard<mutex> lock(connections_mutex);
+
+    if (connections.size() >= MAX_CONNECTIONS) {
+      cout << "Connection limit reached (" << MAX_CONNECTIONS 
+           << "). Cleaning up all connections..." << endl;
+      connections.clear();  // Clear all connections
+      cout << "Connections cleaned up. New connections will be created." << endl;
+    }
+
+    auto it = connections.find(tid);
+    if (it != connections.end() && it->second) {
+      return it->second.get();
+    }
+  }
+  
+  try {
+    sql::Connection* raw_con = driver->connect(db_host, db_user, db_pass);
+    raw_con->setSchema(db_name);
+    
+    unique_ptr<sql::Connection> con(raw_con);
+    
+    {
+      lock_guard<mutex> lock(connections_mutex);
+      connections[tid] = std::move(con);  // Transfer ownership
+    }
+    
+    cout << "Created new DB connection for thread " << tid << endl;
+    return raw_con;
+    
+  } catch (sql::SQLException& e) {
+    cerr << "Failed to create connection for thread " << tid 
+         << ": " << e.what() << endl;
+    return nullptr;
+  }
+}
+
+// Cleanup connection for current thread (after server shutdown)
+void DBHandler::cleanupThreadConnection() {
+  thread::id tid = this_thread::get_id();
+  lock_guard<mutex> lock(connections_mutex);
+  
+  auto it = connections.find(tid);
+  if (it != connections.end()) {
+    connections.erase(it);  // unique_ptr automatically deletes connection
+    cout << "Cleaned up connection for thread " << tid << endl;
+  }
+}
 
 // Add a movie in the database
 bool DBHandler::addMovie(const string &title, const string &genre, int year, double rating) {
+  sql::Connection* con = getThreadConnection();
+  if (!con) return false;
+
   try {
     unique_ptr<sql::PreparedStatement> pstmt
     {con->prepareStatement(
@@ -45,6 +96,9 @@ bool DBHandler::addMovie(const string &title, const string &genre, int year, dou
 
 // List all movies from database
 bool DBHandler::listMovies(string &movieListJson) {
+  sql::Connection* con = getThreadConnection();
+  if (!con) return false;
+
   try {
     unique_ptr<sql::PreparedStatement> pstmt {
       con->prepareStatement(
@@ -76,30 +130,33 @@ bool DBHandler::listMovies(string &movieListJson) {
 
 // Find a movie by its title from database
 bool DBHandler::searchMovie(const string &title, string &movieJson) {
+  sql::Connection* con = getThreadConnection();
+  if (!con) return false;
+
   try {
     unique_ptr<sql::PreparedStatement> pstmt {
       con->prepareStatement(
-        "SELECT * FROM movies WHERE title = ?"
+        "SELECT * FROM movies WHERE LOWER(title) LIKE LOWER(?)"
       )
     };
-    pstmt->setString(1, title);
+    string searchPattern = "%" + title + "%";
+    pstmt->setString(1, searchPattern);
 
     unique_ptr<sql::ResultSet> res(pstmt->executeQuery());
 
-    if (res->next()) {
-      jsoncons::json movie;
-      movie["id"] = res->getInt("id");
-      movie["title"] = string(res->getString("title"));
-      movie["genre"] = string(res->getString("genre"));
-      movie["release_year"] = res->getInt("release_year");
-      movie["rating"] = static_cast<double>(res->getDouble("rating"));
-      
-      movieJson = movie.to_string();
-      return true;
-    } else {
-      movieJson = "{}";
-      return false;
+    jsoncons::json movieArray = jsoncons::json::array();
+    while (res->next()) {
+      jsoncons::json movieObj;
+      movieObj["id"] = res->getInt("id");
+      movieObj["title"] = string(res->getString("title"));
+      movieObj["genre"] = string(res->getString("genre"));
+      movieObj["release_year"] = res->getInt("release_year");
+      movieObj["rating"] = static_cast<double>(res->getDouble("rating"));
+      movieArray.push_back(movieObj);
     }
+    movieJson = movieArray.to_string();
+    return true;
+
   } catch(sql::SQLException& e) {
     cerr << "SearchMovie failed: " << e.what() << endl;
     movieJson = "{}";
@@ -109,6 +166,9 @@ bool DBHandler::searchMovie(const string &title, string &movieJson) {
 
 // Update rating of a movie
 bool DBHandler::updateRating(int id, double rating, string &title, string &movieJson) {
+  sql::Connection* con = getThreadConnection();
+  if (!con) return false;
+
   try {
     unique_ptr<sql::PreparedStatement> pstmt {
       con->prepareStatement(
@@ -149,6 +209,9 @@ bool DBHandler::updateRating(int id, double rating, string &title, string &movie
 
 // Delete a movie from database
 bool DBHandler::deleteMovie(int id, string &title) {
+  sql::Connection* con = getThreadConnection();
+  if (!con) return false;
+  
   try {
     unique_ptr<sql::PreparedStatement> titlepstmt {
       con->prepareStatement(

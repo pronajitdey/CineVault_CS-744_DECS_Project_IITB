@@ -1,0 +1,75 @@
+taskset -c 2-3 ./LoadGenerator --workload write --threads 1 --duration 300 --output ../results/write_1thread.csv | tee -a ../CL_outputs/write_1thread.txt 
+
+========== LOAD GENERATOR ==========
+Server: localhost:8080
+Threads: 1
+Workload: write
+Duration: 300s (+10s warmup)
+====================================
+
+Server connectivity: OK
+
+Starting warmup phase for 10 seconds...
+Warmup complete. Starting actual test...
+
+Progress: 10/300s - Requests: 891 (Success: 890, Failed: 1)
+Progress: 20/300s - Requests: 1721 (Success: 1717, Failed: 4)
+Progress: 30/300s - Requests: 2532 (Success: 2523, Failed: 9)
+Progress: 40/300s - Requests: 3346 (Success: 3331, Failed: 15)
+Progress: 50/300s - Requests: 4129 (Success: 4111, Failed: 18)
+Progress: 60/300s - Requests: 4961 (Success: 4939, Failed: 22)
+Progress: 70/300s - Requests: 5769 (Success: 5744, Failed: 25)
+Progress: 80/300s - Requests: 6606 (Success: 6575, Failed: 31)
+Progress: 90/300s - Requests: 7405 (Success: 7366, Failed: 39)
+Progress: 100/300s - Requests: 8249 (Success: 8207, Failed: 42)
+Progress: 110/300s - Requests: 9066 (Success: 9024, Failed: 42)
+Progress: 120/300s - Requests: 9638 (Success: 9590, Failed: 48)
+Progress: 130/300s - Requests: 10495 (Success: 10441, Failed: 54)
+Progress: 140/300s - Requests: 11324 (Success: 11266, Failed: 58)
+Progress: 150/300s - Requests: 12161 (Success: 12100, Failed: 61)
+Progress: 160/300s - Requests: 12982 (Success: 12919, Failed: 63)
+Progress: 170/300s - Requests: 13811 (Success: 13742, Failed: 69)
+Progress: 180/300s - Requests: 14625 (Success: 14555, Failed: 70)
+Progress: 190/300s - Requests: 15456 (Success: 15383, Failed: 73)
+Progress: 200/300s - Requests: 16280 (Success: 16201, Failed: 79)
+Progress: 210/300s - Requests: 17083 (Success: 17000, Failed: 83)
+Progress: 220/300s - Requests: 17928 (Success: 17844, Failed: 84)
+Progress: 230/300s - Requests: 18737 (Success: 18651, Failed: 86)
+Progress: 240/300s - Requests: 19562 (Success: 19473, Failed: 89)
+Progress: 250/300s - Requests: 20347 (Success: 20258, Failed: 89)
+Progress: 260/300s - Requests: 21140 (Success: 21046, Failed: 94)
+Progress: 270/300s - Requests: 21940 (Success: 21843, Failed: 97)
+Progress: 280/300s - Requests: 22773 (Success: 22675, Failed: 98)
+Progress: 290/300s - Requests: 23575 (Success: 23476, Failed: 99)
+
+========== LOAD TEST RESULTS ==========
+Duration: 300 seconds
+Total Requests: 24295
+Successful (200): 19239
+Not Found (500): 4955
+Failed: 101
+
+Success Rates:
+  Actual Operations: 79.19%
+  Server Responses: 99.58%
+
+Throughput:
+  Total: 80.98 req/s
+  Effective: 64.13 req/s
+
+Request Distribution:
+  ADD: 19340
+  LIST: 0
+  SEARCH: 0
+  UPDATE: 3692
+  DELETE: 1263
+
+Latency Statistics (ms):
+  Mean: 12.39
+  Median: 13.85
+  P95: 17.36
+  P99: 20.54
+  Min: 1.67
+  Max: 142.13
+=======================================
+Latency data exported to ../results/write_1thread.csv

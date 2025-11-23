@@ -10,7 +10,7 @@
 #define DB_USER "movieuser"
 #define DB_PASS "moviepass"
 #define DB_NAME "movie_store"
-#define CACHE_CAPACITY 3
+#define CACHE_CAPACITY 1000
 
 using namespace std;
 using namespace jsoncons;

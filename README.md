@@ -121,3 +121,26 @@ The caches uses **LRU (Least Recently Used)** replacement policy implemented wit
 - A `std::list` to maintain order of access (LRU order), front of list is most recent and back of list is least recent
 - A `std::unordered_map` for O(1) lookups
 - `std::mutex` and `std::lock_guard` for thread-safety
+
+## Performance & Scaling
+
+**Current Performance:**
+
+Read-Heavy Workload: CPU bottleneck
+
+Write-Heavy Workload: I/O bottleneck
+
+Connection Management
+Uses per-thread connection pooling: each of default 8 threads maintains one persistent MySQL connection for reuse.
+
+Enforces connection limit of 100 (safety mechanism that clears all connections when limit reached, forcing threads to create new ones).
+
+Bottleneck Analysis
+Reads limited by: CPU (95% utilization), not I/O or memory
+
+Writes limited by: Disk I/O (95% utilization, I/O await time of 675 ms)
+
+Scaling Strategies
+To scale reads: Increase CPU cores, add database read replicas, or optimize JSON serialization
+
+To scale writes: Use NVMe storage,or implement write batching

@@ -1,0 +1,586 @@
+Linux 6.6.87.2-microsoft-standard-WSL2 (DESKTOP-RDGI8C0) 	11/22/25 	_x86_64_	(8 CPU)
+
+11:12:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:08     1000      7539    4.80    4.00    0.00    0.20    8.80     1  MovieHTTPServer
+
+11:12:03      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:08     1000      7539    104.00      1.80  614688   13696   0.38  MovieHTTPServer
+
+11:12:03      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:08     1000      7539     14.40      0.00      0.00       0  MovieHTTPServer
+
+11:12:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:13     1000      7539    7.80    9.40    0.00    0.40   17.20     1  MovieHTTPServer
+
+11:12:08      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:13     1000      7539      2.80      0.20  614688   14336   0.40  MovieHTTPServer
+
+11:12:08      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:13     1000      7539      8.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:18     1000      7539    8.00    9.80    0.00    0.20   17.80     1  MovieHTTPServer
+
+11:12:13      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:18     1000      7539      6.40      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:13      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:18     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:23     1000      7539    9.00    8.80    0.00    0.00   17.80     1  MovieHTTPServer
+
+11:12:18      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:23     1000      7539      0.80      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:18      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:23     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:28     1000      7539    8.20   10.00    0.00    0.40   18.20     1  MovieHTTPServer
+
+11:12:23      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:28     1000      7539      0.40      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:23      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:28     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:33     1000      7539    9.00    8.80    0.00    0.20   17.80     1  MovieHTTPServer
+
+11:12:28      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:33     1000      7539      0.20      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:28      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:33     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:38     1000      7539    7.60    6.60    0.00    0.20   14.20     1  MovieHTTPServer
+
+11:12:33      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:38     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:33      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:38     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:43     1000      7539    1.60    1.60    0.00    0.00    3.20     1  MovieHTTPServer
+
+11:12:38      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:43     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:38      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:43     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:48     1000      7539    8.80    9.80    0.00    0.20   18.60     1  MovieHTTPServer
+
+11:12:43      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:48     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:43      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:48     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:53     1000      7539    8.60    9.60    0.00    0.20   18.20     1  MovieHTTPServer
+
+11:12:48      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:53     1000      7539      0.40      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:48      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:53     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:12:58     1000      7539    9.40    9.00    0.00    0.20   18.40     1  MovieHTTPServer
+
+11:12:53      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:12:58     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:53      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:12:58     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:12:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:03     1000      7539    8.00   10.20    0.00    0.20   18.20     1  MovieHTTPServer
+
+11:12:58      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:03     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:12:58      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:03     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:08     1000      7539    9.80    8.20    0.00    0.20   18.00     1  MovieHTTPServer
+
+11:13:03      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:08     1000      7539      0.20      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:03      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:08     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:13     1000      7539    9.00    9.40    0.00    0.40   18.40     1  MovieHTTPServer
+
+11:13:08      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:13     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:08      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:13     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:18     1000      7539    9.00    8.60    0.00    0.20   17.60     1  MovieHTTPServer
+
+11:13:13      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:18     1000      7539      0.20      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:13      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:18     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:23     1000      7539    9.00    9.00    0.00    0.20   18.00     1  MovieHTTPServer
+
+11:13:18      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:23     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:18      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:23     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:28     1000      7539    9.40    8.80    0.00    0.00   18.20     1  MovieHTTPServer
+
+11:13:23      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:28     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:23      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:28     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:33     1000      7539    9.00    8.40    0.00    0.20   17.40     1  MovieHTTPServer
+
+11:13:28      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:33     1000      7539      0.20      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:28      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:33     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:38     1000      7539    7.60   10.20    0.00    0.40   17.80     1  MovieHTTPServer
+
+11:13:33      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:38     1000      7539      0.20      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:33      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:38     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:43     1000      7539    8.20    9.40    0.00    0.20   17.60     1  MovieHTTPServer
+
+11:13:38      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:43     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:38      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:43     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:48     1000      7539    8.00    9.20    0.00    0.20   17.20     1  MovieHTTPServer
+
+11:13:43      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:48     1000      7539      0.20      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:43      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:48     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:53     1000      7539    8.20   10.00    0.00    0.20   18.20     1  MovieHTTPServer
+
+11:13:48      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:53     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:48      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:53     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:13:58     1000      7539    8.60    9.40    0.00    0.20   18.00     1  MovieHTTPServer
+
+11:13:53      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:13:58     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:53      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:13:58     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:13:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:03     1000      7539    8.80    8.80    0.00    0.20   17.60     1  MovieHTTPServer
+
+11:13:58      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:03     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:13:58      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:03     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:08     1000      7539    8.40    9.20    0.00    0.20   17.60     1  MovieHTTPServer
+
+11:14:03      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:08     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:03      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:08     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:13     1000      7539    8.60    9.40    0.00    0.20   18.00     1  MovieHTTPServer
+
+11:14:08      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:13     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:08      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:13     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:18     1000      7539    5.80    6.40    0.00    0.20   12.20     1  MovieHTTPServer
+
+11:14:13      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:18     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:13      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:18     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:23     1000      7539    8.20    9.80    0.00    0.20   18.00     1  MovieHTTPServer
+
+11:14:18      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:23     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:18      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:23     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:28     1000      7539    9.40    8.60    0.00    0.20   18.00     1  MovieHTTPServer
+
+11:14:23      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:28     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:23      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:28     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:33     1000      7539    9.00    8.60    0.00    0.20   17.60     1  MovieHTTPServer
+
+11:14:28      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:33     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:28      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:33     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:38     1000      7539    9.60    8.00    0.00    0.20   17.60     1  MovieHTTPServer
+
+11:14:33      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:38     1000      7539      0.20      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:33      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:38     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:43     1000      7539    8.60   10.20    0.00    0.20   18.80     1  MovieHTTPServer
+
+11:14:38      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:43     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:38      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:43     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:48     1000      7539    8.40    8.80    0.00    0.20   17.20     1  MovieHTTPServer
+
+11:14:43      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:48     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:43      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:48     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:53     1000      7539    9.40    8.00    0.00    0.20   17.40     1  MovieHTTPServer
+
+11:14:48      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:53     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:48      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:53     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:14:58     1000      7539    9.00    8.60    0.00    0.20   17.60     1  MovieHTTPServer
+
+11:14:53      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:14:58     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:53      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:14:58     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:14:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:03     1000      7539    9.40    8.40    0.00    0.20   17.80     1  MovieHTTPServer
+
+11:14:58      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:03     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:14:58      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:03     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:08     1000      7539    9.20    8.60    0.00    0.20   17.80     1  MovieHTTPServer
+
+11:15:03      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:08     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:03      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:08     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:13     1000      7539    9.20    8.60    0.00    0.20   17.80     1  MovieHTTPServer
+
+11:15:08      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:13     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:08      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:13     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:18     1000      7539    8.80    9.20    0.00    0.20   18.00     1  MovieHTTPServer
+
+11:15:13      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:18     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:13      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:18     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:23     1000      7539    8.80    9.40    0.00    0.20   18.20     1  MovieHTTPServer
+
+11:15:18      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:23     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:18      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:23     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:28     1000      7539    9.00    9.00    0.00    0.20   18.00     1  MovieHTTPServer
+
+11:15:23      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:28     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:23      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:28     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:33     1000      7539    8.60    9.20    0.00    0.00   17.80     1  MovieHTTPServer
+
+11:15:28      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:33     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:28      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:33     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:38     1000      7539    9.80    7.80    0.00    0.20   17.60     1  MovieHTTPServer
+
+11:15:33      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:38     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:33      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:38     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:43     1000      7539    8.80    8.60    0.00    0.20   17.40     1  MovieHTTPServer
+
+11:15:38      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:43     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:38      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:43     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:48     1000      7539   10.20    7.80    0.00    0.00   18.00     1  MovieHTTPServer
+
+11:15:43      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:48     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:43      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:48     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:53     1000      7539    8.80    9.20    0.00    0.40   18.00     1  MovieHTTPServer
+
+11:15:48      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:53     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:48      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:53     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:15:58     1000      7539    8.80    9.40    0.00    0.00   18.20     1  MovieHTTPServer
+
+11:15:53      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:15:58     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:53      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:15:58     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:15:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:03     1000      7539    8.80    9.40    0.00    0.20   18.20     1  MovieHTTPServer
+
+11:15:58      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:03     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:15:58      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:03     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:08     1000      7539    8.40    9.00    0.00    0.20   17.40     1  MovieHTTPServer
+
+11:16:03      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:08     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:03      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:08     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:13     1000      7539    9.80    8.40    0.00    0.20   18.20     1  MovieHTTPServer
+
+11:16:08      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:13     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:08      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:13     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:18     1000      7539    7.60    9.80    0.00    0.40   17.40     1  MovieHTTPServer
+
+11:16:13      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:18     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:13      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:18     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:23     1000      7539    8.20    9.60    0.00    0.00   17.80     1  MovieHTTPServer
+
+11:16:18      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:23     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:18      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:23     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:28     1000      7539    9.38    8.38    0.00    0.40   17.76     1  MovieHTTPServer
+
+11:16:23      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:28     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:23      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:28     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:33     1000      7539    8.60    8.80    0.00    0.00   17.40     1  MovieHTTPServer
+
+11:16:28      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:33     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:28      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:33     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:38     1000      7539    9.40    8.20    0.00    0.40   17.60     1  MovieHTTPServer
+
+11:16:33      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:38     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:33      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:38     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:43     1000      7539    8.00    9.60    0.00    0.20   17.60     1  MovieHTTPServer
+
+11:16:38      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:43     1000      7539      0.20      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:38      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:43     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:48     1000      7539    9.20    9.00    0.00    0.20   18.20     1  MovieHTTPServer
+
+11:16:43      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:48     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:43      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:48     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:53     1000      7539    8.80    9.80    0.00    0.20   18.60     1  MovieHTTPServer
+
+11:16:48      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:53     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:48      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:53     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:16:58     1000      7539    9.20    8.80    0.00    0.40   18.00     1  MovieHTTPServer
+
+11:16:53      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:16:58     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:53      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:16:58     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:16:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:17:03     1000      7539    5.20    6.80    0.00    0.00   12.00     1  MovieHTTPServer
+
+11:16:58      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:17:03     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:16:58      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:17:03     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:17:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:17:08     1000      7539    9.00   10.20    0.00    0.20   19.20     1  MovieHTTPServer
+
+11:17:03      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:17:08     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:17:03      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:17:08     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:17:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:17:13     1000      7539    9.00    9.00    0.00    0.20   18.00     1  MovieHTTPServer
+
+11:17:08      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:17:13     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:17:08      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:17:13     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:17:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:17:18     1000      7539    5.40    6.40    0.00    0.20   11.80     1  MovieHTTPServer
+
+11:17:13      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:17:18     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:17:13      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:17:18     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+11:17:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:17:23     1000      7539    0.00    0.00    0.00    0.00    0.00     1  MovieHTTPServer
+
+11:17:18      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+11:17:23     1000      7539      0.00      0.00  614688   14464   0.40  MovieHTTPServer
+
+11:17:18      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+11:17:23     1000      7539      0.00      0.00      0.00       0  MovieHTTPServer
+
+Average:      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+Average:     1000      7539    8.33    8.58    0.00    0.20   16.91     -  MovieHTTPServer
+
+Average:      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+Average:     1000      7539      1.82      0.03  614688   14450   0.40  MovieHTTPServer
+
+Average:      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+Average:     1000      7539      0.35      0.00      0.00       0  MovieHTTPServer
